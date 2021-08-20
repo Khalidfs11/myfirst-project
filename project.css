@@ -1,0 +1,213 @@
+*,
+::before,
+::after{
+box-sizing: border-box;
+
+}
+
+body{
+background-color: rgb(233, 233, 233);
+margin: 0;
+line-height: 1.6;
+}
+
+img{
+
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1{
+    margin: auto;
+    padding: auto;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 2em;
+    text-align: left;
+   color: rgb(17, 3, 3);
+    margin: 0;
+    
+}
+h2,
+h3,
+h4{
+    color: gold;
+    font-size: 2em;
+}
+
+
+.container{
+
+    width: 100%;
+    max-width: 65em;
+    margin: auto;
+}
+
+
+.btn3{
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    color: var(--clr-accent,rgb(245, 240, 240));
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 0.1em 0.3em;
+    background: var(--clr-accent,rgb(4, 5, 1));
+    border-radius: 2em;
+    transition: transform 250ms ease-in-out,
+    opacity 175ms linear;
+    
+    }
+    .btn3:hover,
+    .btn3:focus {
+    
+        transform: scale(1.1);
+        opacity: .9;
+
+    }
+
+.btn1{
+display: inline-block;
+text-decoration: none;
+color: var(--clr-accent,black);
+font-weight: 700;
+text-transform: uppercase;
+font-size: 1rem;
+padding: 0.1em 0.5em;
+background: var(--clr-accent,rgb(248, 246, 246));
+border-radius: 2em;
+transition: transform 250ms ease-in-out,
+opacity 175ms linear;
+
+}
+.btn1:hover,
+.btn1:focus {
+
+    transform: scale(1.1);
+    opacity: .7;
+}
+
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-accent,rgb(7, 4, 4));
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 0.5em 0.5em;
+    background: var(--clr-accent,rgb(218, 216, 216));
+    border-radius: 2em;
+transition: transform 250ms ease-in-out,
+opacity 175ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+
+    transform: scale(1.1);
+    opacity: .9;
+}
+
+.primary-title {
+
+color: crimson;
+    font-size: 2.5rem;
+    line-height: 1;
+    text-transform: uppercase;
+    
+}
+
+.spacing>*+*{
+    margin-top: var(--spacer, 4rem);
+}
+
+
+.section-title{
+
+font-size: clamp(2.5rem,calc(5vw+1rem), 4rem);
+text-align: center;
+color: crimson ;
+margin-bottom: 5rem;
+
+
+}
+/* start header*/
+.hero {
+
+    text-align: center;
+    padding: 20em 0;
+    
+
+    
+
+        background: url('https://wallpapertag.com/wallpaper/full/9/1/9/738113-popular-awesome-guitar-backgrounds-1920x1200-for-meizu.jpg');
+         height: 1000px;
+         position: relative;
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-position: center center;
+     }
+     .header .overlay {
+     background-color: rgba(8, 3, 3, 0.5);
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     color: #FFF;
+     z-index: 2;
+
+
+    /* end header*/
+
+
+
+}
+/* start nav*/
+
+.navbar{
+    height: 0;
+background-color: rgb(10, 10, 9);
+position: relative;
+z-index: 1;
+}
+.navbar .title{
+color: rgb(240, 232, 234);
+    float:left;
+    width: 30%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar .links{
+color: rgb(247, 242, 243);
+    float: right;
+    width: 50%;
+    margin-top:6px; 
+}
+.navbar .links li{
+    display: inline-block;
+    padding: 1px 0;
+    margin: 0 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+}
+.navbar .links li.active, .navbar .links li:hover{
+    color: crimson;
+    border-bottom: 2px solid crimson;
+}
+/* end nav*/
+
+.footer{
+padding: 80px 30px;
+text-decoration: none;
+margin: 40%;
+}
+.float-end{
+    float: right;
+}
