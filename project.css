@@ -140,16 +140,12 @@ margin-bottom: 5rem;
 
     text-align: center;
     padding: 20em 0;
-    
-
-    
-
-        background: url('https://wallpapertag.com/wallpaper/full/9/1/9/738113-popular-awesome-guitar-backgrounds-1920x1200-for-meizu.jpg');
-         height: 1000px;
-         position: relative;
-         background-attachment: fixed;
-         background-repeat: no-repeat;
-         background-position: center center;
+    background: url('https://wallpapertag.com/wallpaper/full/9/1/9/738113-popular-awesome-guitar-backgrounds-1920x1200-for-meizu.jpg');
+    height: 1000px;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
      }
      .header .overlay {
      background-color: rgba(8, 3, 3, 0.5);
@@ -210,4 +206,19 @@ margin: 40%;
 }
 .float-end{
     float: right;
+}
+
+.featured_items img{
+
+    padding-bottom: 1rem;
+}
+
+.featured_details {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.product img {
+
+width: 150%;
 }
